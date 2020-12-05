@@ -1,4 +1,4 @@
-# Software setup and introduction to datasets
+# Tutorial 1 - Software setup and introduction to datasets
 
 ## 1. Install ArcGIS Pro
 
