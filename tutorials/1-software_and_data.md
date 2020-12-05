@@ -35,7 +35,7 @@
 | 15 | rail                 | vector    | line        | Railway                                                   |
 | 16 | Roads                | vector    | line        | State and county roads                                    |
 | 17 | Soils                | vector    | polygon     | SSURGO soil polygons                                      |
-| 18 | [taxlot](../datasets/taxlot.ipynb) | vector    | polygon     | Property parcel ([FGDL property appraisal data](https://www.fgdl.org/metadataexplorer/full_metadata.jsp?docId=%7B147B34F0-9E64-49AE-8B7F-5C4999BEC541%7D&loggedIn=false))            |
+| 18 | [taxlot](../datasets/taxlot/taxlot.ipynb) | vector    | polygon     | Property parcel ([FGDL property appraisal data](https://www.fgdl.org/metadataexplorer/full_metadata.jsp?docId=%7B147B34F0-9E64-49AE-8B7F-5C4999BEC541%7D&loggedIn=false))            |
 | 19 | wetlands             | vector    | polygon     | National wetland inventory                                |
 | 20 | Zoning_Oboundary     | vector    | polygon     | Orange county zoning                                      |
 | 21 | aspect               | raster    | .tif        | Aspect in degrees                                         |
