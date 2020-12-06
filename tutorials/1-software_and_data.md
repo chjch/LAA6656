@@ -9,7 +9,7 @@
 
 ## 2. Introduction to the GIS datasets
 
-- Download from this [Dropbox link](https://www.dropbox.com/s/yu9zwcrth11lhq4/LAA6656DataFiles.zip?dl=0).
+- **Download** from this [Dropbox link](https://www.dropbox.com/s/wzigykb4zmsmmca/LAA6656DataFiles.zip?dl=0).
 - Critical to be aware and acquainted with what's available.
 - Identifying and acquiring useful datasets is an essential skill.
 - Understanding the concepts behind different types of GIS data.
