@@ -22,7 +22,7 @@
 | 1  | ApopkaZoning         | vector    | polygon     | Apopka city zoning                                        |
 | 2  | BusRoutes            | vector    | line        | Bus routes (LYNX data)                                    |
 | 3  | BusStops             | vector    | point       | Bus stops (LYNX data)                                     |
-| 4  | CensusBlocks_2010_cp | vector    | polygon     | 2010 Census block groups                                  |
+| 4  | [CensusBlocks_2010_cp](../datasets/census/census.md) | vector    | polygon     | 2010 [Census blocks](https://www2.census.gov/geo/pdfs/reference/geodiagram.pdf)  |
 | 5  | CensusTracts_2010_cp | vector    | polygon     | 2010 Census tracts                                        |
 | 6  | CLC_LULC             | vector    | polygon     | Conservation Land Commission Land Use Land Cover          |
 | 7  | Conservation         | vector    | polygon     | Conservation lands                                        |
@@ -30,13 +30,13 @@
 | 9  | FutureLandUse        | vector    | polygon     | Future land use                                           |
 | 10 | histUndBus           | vector    | polygon     | Historically underutilized business zones                 |
 | 11 | Jurisdiction         | vector    | polygon     | Apopka jurisdiction map                                   |
-| 12 | Oboundary_EB         | vector    | polygon     | Study area boundary                                       |
+| 12 | Oboundary_EB         | vector    | polygon     | Study area boundary (partitioned into three sections)     |
 | 13 | PublicFacilities     | vector    | polygon     | Orange county roads , drainage, water/waste reclaimation  |
 | 14 | PublicLand           | vector    | polygon     | Public land (federal, state, county, municipal, etc.)     |
 | 15 | rail                 | vector    | line        | Railway                                                   |
 | 16 | Roads                | vector    | line        | State and county roads                                    |
 | 17 | Soils                | vector    | polygon     | SSURGO soil polygons                                      |
-| 18 | [taxlot](https://colab.research.google.com/drive/1uxxKyKYX3QXKmEhCsXfnbMc2WVoO98kc) | vector    | polygon     | Property parcel ([FGDL property appraisal data](https://www.fgdl.org/metadataexplorer/full_metadata.jsp?docId=%7B147B34F0-9E64-49AE-8B7F-5C4999BEC541%7D&loggedIn=false))            |
+| 18 | [taxlot](https://colab.research.google.com/drive/1uxxKyKYX3QXKmEhCsXfnbMc2WVoO98kc) | vector    | polygon     | Property parcel ([FGDL property appraisal data](https://www.fgdl.org/metadataexplorer/full_metadata.jsp?docId=%7B147B34F0-9E64-49AE-8B7F-5C4999BEC541%7D&loggedIn=false))  |
 | 19 | wetlands             | vector    | polygon     | National wetland inventory                                |
 | 20 | Zoning_Oboundary     | vector    | polygon     | Orange county zoning                                      |
 | 21 | aspect               | raster    | .tif        | Aspect in degrees                                         |
