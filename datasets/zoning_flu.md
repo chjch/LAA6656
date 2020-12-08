@@ -4,8 +4,8 @@
 
 ## 1. Apopka Zoning Code
 
-- File: ```ApopkaZoning.shp```
-- Field: ```Zoning```
+- File name: ```ApopkaZoning.shp```
+- Field name: ```Zoning```
 
 | District                            | Zoning Code | Description                                  |
 |-------------------------------------|-------------|----------------------------------------------|
@@ -20,8 +20,8 @@ _[Source: City of Apopka Code of Ordinances](https://library.municode.com/fl/apo
 
 ## 2. Orange County Zoning Code (Zoning_Oboundry.shp)
 
-- File: ```Zoning_OBoundary.shp```
-- Field: ```Zoning```
+- File name: ```Zoning_OBoundary.shp```
+- Field name: ```Zoning```
 - Note: ```City``` (zoning defers to the city)
 
 | District               | Zoning Code | Description                         |
@@ -35,8 +35,8 @@ _[Source: Orange County Code of Ordinances](https://library.municode.com/fl/oran
 
 ## 3. Future Land Use
 
-- File: ```FutureLandUse.shp```
-- Field: ```Label```
+- File name: ```FutureLandUse.shp```
+- Field name: ```Label```
 - Note: ```City``` (future land use defers to the city)
 
 | Future Land Use Code | Description                                                                    |

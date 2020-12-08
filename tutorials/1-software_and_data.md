@@ -20,8 +20,8 @@
 | ID | File Name            | Data Type | Data Format | Description                                               |
 |----|----------------------|-----------|-------------|-----------------------------------------------------------|
 | 1  | [ApopkaZoning](../datasets/zoning_flu.md)         | vector    | polygon     | [Apopka city zoning](https://library.municode.com/fl/apopka/codes/code_of_ordinances?nodeId=PTIIILADECO_ART3ZODI_S3.1GEPR)                                        |
-| 2  | BusRoutes            | vector    | line        | [Bus routes](https://www.golynx.com/lynxmap/GoLYNX_data/BusRoutes_MetadataItemDescription.pdf) (LYNX data)                                    |
-| 3  | BusStops             | vector    | point       | [Bus stops](https://www.golynx.com/lynxmap/GoLYNX_data/BusStops_MetadataItemDescription.pdf) (LYNX data)                                     |
+| 2  | [BusRoutes](../datasets/transit.md)            | vector    | line        | Bus routes ([LYNX](https://www.golynx.com/corporate-info/facts-glance.stml) data)                                    |
+| 3  | BusStops             | vector    | point       | Bus stops (LYNX data)                                     |
 | 4  | [CensusBlocks_2010_cp](../datasets/census/census.md) | vector    | polygon     | 2010 [Census blocks](https://www2.census.gov/geo/pdfs/reference/geodiagram.pdf)  |
 | 5  | CensusTracts_2010_cp | vector    | polygon     | 2010 Census tracts                                        |
 | 6  | CLC_LULC             | vector    | polygon     | Conservation Land Commission Land Use Land Cover          |
@@ -35,7 +35,7 @@
 | 14 | PublicLand           | vector    | polygon     | Public land (federal, state, county, municipal, etc.)     |
 | 15 | rail                 | vector    | line        | Railway                                                   |
 | 16 | Roads                | vector    | line        | State and county roads                                    |
-| 17 | Soils                | vector    | polygon     | SSURGO soil polygons                                      |
+| 17 | [Soils]()                | vector    | polygon     | [SSURGO](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627) soil polygons                                      |
 | 18 | [taxlot](https://colab.research.google.com/drive/1uxxKyKYX3QXKmEhCsXfnbMc2WVoO98kc) | vector    | polygon     | Property parcel ([FGDL property appraisal data](https://www.fgdl.org/metadataexplorer/full_metadata.jsp?docId=%7B147B34F0-9E64-49AE-8B7F-5C4999BEC541%7D&loggedIn=false))  |
 | 19 | wetlands             | vector    | polygon     | National wetland inventory                                |
 | 20 | [Zoning_OBoundary](../datasets/zoning_flu.md)     | vector    | polygon     | Orange county zoning                                      |
