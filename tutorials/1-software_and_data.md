@@ -19,15 +19,15 @@
 
 | ID | File Name            | Data Type | Data Format | Description                                               |
 |----|----------------------|-----------|-------------|-----------------------------------------------------------|
-| 1  | ApopkaZoning         | vector    | polygon     | Apopka city zoning                                        |
-| 2  | BusRoutes            | vector    | line        | Bus routes (LYNX data)                                    |
-| 3  | BusStops             | vector    | point       | Bus stops (LYNX data)                                     |
+| 1  | [ApopkaZoning](../datasets/zoning_flu.md)         | vector    | polygon     | [Apopka city zoning](https://library.municode.com/fl/apopka/codes/code_of_ordinances?nodeId=PTIIILADECO_ART3ZODI_S3.1GEPR)                                        |
+| 2  | BusRoutes            | vector    | line        | [Bus routes](https://www.golynx.com/lynxmap/GoLYNX_data/BusRoutes_MetadataItemDescription.pdf) (LYNX data)                                    |
+| 3  | BusStops             | vector    | point       | [Bus stops](https://www.golynx.com/lynxmap/GoLYNX_data/BusStops_MetadataItemDescription.pdf) (LYNX data)                                     |
 | 4  | [CensusBlocks_2010_cp](../datasets/census/census.md) | vector    | polygon     | 2010 [Census blocks](https://www2.census.gov/geo/pdfs/reference/geodiagram.pdf)  |
 | 5  | CensusTracts_2010_cp | vector    | polygon     | 2010 Census tracts                                        |
 | 6  | CLC_LULC             | vector    | polygon     | Conservation Land Commission Land Use Land Cover          |
 | 7  | Conservation         | vector    | polygon     | Conservation lands                                        |
 | 8  | Fema Flood Zones_clp | vector    | polygon     | FEMA flood zones                                          |
-| 9  | FutureLandUse        | vector    | polygon     | Future land use                                           |
+| 9  | [FutureLandUse](../datasets/zoning_flu.md)        | vector    | polygon     | Future land use                                           |
 | 10 | histUndBus           | vector    | polygon     | Historically underutilized business zones                 |
 | 11 | Jurisdiction         | vector    | polygon     | Apopka jurisdiction map                                   |
 | 12 | Oboundary_EB         | vector    | polygon     | Study area boundary (partitioned into three sections)     |
@@ -38,7 +38,7 @@
 | 17 | Soils                | vector    | polygon     | SSURGO soil polygons                                      |
 | 18 | [taxlot](https://colab.research.google.com/drive/1uxxKyKYX3QXKmEhCsXfnbMc2WVoO98kc) | vector    | polygon     | Property parcel ([FGDL property appraisal data](https://www.fgdl.org/metadataexplorer/full_metadata.jsp?docId=%7B147B34F0-9E64-49AE-8B7F-5C4999BEC541%7D&loggedIn=false))  |
 | 19 | wetlands             | vector    | polygon     | National wetland inventory                                |
-| 20 | Zoning_Oboundary     | vector    | polygon     | Orange county zoning                                      |
+| 20 | [Zoning_OBoundary](../datasets/zoning_flu.md)     | vector    | polygon     | Orange county zoning                                      |
 | 21 | aspect               | raster    | .tif        | Aspect in degrees                                         |
 | 22 | elevation_ft         | raster    | grid        | Elevation 10m DEM in feet                                 |
 | 23 | grdn29w_clip         | raster    | grid        | Elevation 10m DEM                                         |
