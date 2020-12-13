@@ -17,38 +17,19 @@
   - raster: field view (continuous)
   - "People manipulate object but cultivate field" (Couclelis, 1992).
 
-| ID | File Name            | Data Type | Data Format | Description                                               |
-|----|----------------------|-----------|-------------|-----------------------------------------------------------|
-| 1  | [ApopkaZoning](../datasets/zoning_flu.md)         | vector    | polygon     | [Apopka city zoning](https://library.municode.com/fl/apopka/codes/code_of_ordinances?nodeId=PTIIILADECO_ART3ZODI_S3.1GEPR)                                        |
-| 2  | [BusRoutes](../datasets/transit.md)            | vector    | line        | Bus routes ([LYNX](https://www.golynx.com/corporate-info/facts-glance.stml) data)                                    |
-| 3  | BusStops             | vector    | point       | Bus stops (LYNX data)                                     |
-| 4  | [CensusBlocks_2010_cp](../datasets/census/census.md) | vector    | polygon     | 2010 [Census blocks](https://www2.census.gov/geo/pdfs/reference/geodiagram.pdf)  |
-| 5  | CensusTracts_2010_cp | vector    | polygon     | 2010 Census tracts                                        |
-| 6  | CLC_LULC             | vector    | polygon     | Conservation Land Commission Land Use Land Cover          |
-| 7  | Conservation         | vector    | polygon     | Conservation lands                                        |
-| 8  | Fema Flood Zones_clp | vector    | polygon     | FEMA flood zones                                          |
-| 9  | [FutureLandUse](../datasets/zoning_flu.md)        | vector    | polygon     | Future land use                                           |
-| 10 | histUndBus           | vector    | polygon     | Historically underutilized business zones                 |
-| 11 | Jurisdiction         | vector    | polygon     | Apopka jurisdiction map                                   |
-| 12 | Oboundary_EB         | vector    | polygon     | Study area boundary (partitioned into three sections)     |
-| 13 | PublicFacilities     | vector    | polygon     | Orange county roads , drainage, water/waste reclaimation  |
-| 14 | PublicLand           | vector    | polygon     | Public land (federal, state, county, municipal, etc.)     |
-| 15 | rail                 | vector    | line        | Railway                                                   |
-| 16 | Roads                | vector    | line        | State and county roads                                    |
-| 17 | [Soils]()                | vector    | polygon     | [SSURGO](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627) soil polygons                                      |
-| 18 | [taxlot](https://colab.research.google.com/drive/1uxxKyKYX3QXKmEhCsXfnbMc2WVoO98kc) | vector    | polygon     | Property parcel ([FGDL property appraisal data](https://www.fgdl.org/metadataexplorer/full_metadata.jsp?docId=%7B147B34F0-9E64-49AE-8B7F-5C4999BEC541%7D&loggedIn=false))  |
-| 19 | wetlands             | vector    | polygon     | National wetland inventory                                |
-| 20 | [Zoning_OBoundary](../datasets/zoning_flu.md)     | vector    | polygon     | Orange county zoning                                      |
-| 21 | aspect               | raster    | .tif        | Aspect in degrees                                         |
-| 22 | elevation_ft         | raster    | grid        | Elevation 10m DEM in feet                                 |
-| 23 | grdn29w_clip         | raster    | grid        | Elevation 10m DEM                                         |
-| 24 | hillshade            | raster    | grid        | Hillshade derived from 10m DEM (azimuth 315, altitude 45) |
-| 25 | LULC_2015            | raster    | grid        | Land Use Land Cover ca. 2015                              |
-| 26 | orthoNAIP            | raster    | .tif        | 2015 NAIP aerial photo                                    |
-| 27 | slope_ps             | raster    | grid        | Slope (percent rise)                                      |
-| 28 | soil_agcl            | raster    | grid        | Non-irrigated land capability class                       |
-| 29 | soil_hgrp            | raster    | grid        | Depth to bedrock (inches, classed)                        |
-| 30 | soil_wt              | raster    | grid        | Depth to water table (feet, classed)                      |
+| Theme | ID | File Name            | Data Format | Type | Description                                               |
+| - |----|----------------------|-----------|-------------|-----------------------------------------------------------|
+| [Demography](../datasets/census/census.md) | 1 <br> 2 | CensusBlocks_2010_cp <br> CensusTracts_2010_cp | vector <br> vector  | polygon <br> polygon   | 2010 [Census](https://www2.census.gov/geo/pdfs/reference/geodiagram.pdf) blocks <br> 2010 Census tracts |
+| [Zoning & FLU](../datasets/zoning_flu.md) | 3 <br> 4 <br> 5 | ApopkaZoning <br> Zoning_OBoundary <br> FutureLandUse | vector <br> vector <br> vector | polygon <br> polygon <br> polygon | [City of Apopka zoning ordinance](https://library.municode.com/fl/apopka/codes/code_of_ordinances?nodeId=PTIIILADECO_ART3ZODI_S3.1GEPR) <br> [Orange County zoning ordinance](https://library.municode.com/fl/orange_county/codes/code_of_ordinances?nodeId=PTIIORCOCO_CH38ZO_ARTIVZODIESZOMA) <br> [Orange County Future Land Use](https://www.orangecountyfl.net/PlanningDevelopment/ComprehensivePlanning.aspx#.X87_PGhKj-g)                                      |
+| Boundaries | 6 <br> 7 <br> 8 <br> 9 | Jurisdiction <br> Oboundary_EB <br> PublicFacilities <br> PublicLand | vector <br> vector <br> vector <br> vector | polygon <br> polygon <br> polygon <br> polygon | Apopka jurisdiction map <br> Study area boundary (partitioned into three sections) <br> Orange county roads, drainage, water/waste reclaimation <br> Public land (federal, state, county, municipal, etc.) |
+| Critical Zones  | 10 <br> 11 <br> 12 <br> 13 | Conservation <br> Fema Flood Zones_clp <br> histUndBus <br> wetlands | vector <br> vector <br> vector <br> vector | polygon <br> polygon <br> polygon <br> polygon | Conservation lands <br> FEMA flood zones <br> Historically underutilized business zones <br> National wetland inventory                                      |
+| [Transit](../datasets/transit.md) | 14 <br> 15 | BusRoutes <br> BusStops           | vector <br> vector   | line <br> point       | Bus routes ([LYNX](https://www.golynx.com/corporate-info/facts-glance.stml) data) <br> Bus stops (LYNX data) |
+| Transport | 16 <br> 17 | rail <br> Roads | vector <br> vector | line <br> line | Railway <br> State and county roads |
+| [Property Parcels]((https://colab.research.google.com/drive/1uxxKyKYX3QXKmEhCsXfnbMc2WVoO98kc)) | 18 | [taxlot] | vector | polygon | [FGDL](https://www.fgdl.org/metadataexplorer/full_metadata.jsp?docId=%7B147B34F0-9E64-49AE-8B7F-5C4999BEC541%7D&loggedIn=false) Property parcel |
+| [LULC] | 19 <br> 20 | LULC_2015 <br> CLC_LULC | raster <br> vector    | grid <br> polygon | Land Use Land Cover ca. 2015 <br> Conservation Land Commission Land Use Land Cover |
+| [Soils](../datasets/soils.md) | 21 <br> 22 <br> 23 <br> 24 | Soils <br> soil_agcl <br> soil_hgrp <br> soil_wt | vector <br> raster <br> raster <br> raster | polygon <br> grid <br> grid <br> grid | [SSURGO](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627) soil polygons <br> Non-irrigated land capability class <br> Depth to bedrock (inches, classed) <br> Depth to water table (feet, classed)     |
+| [DEM] | 25 <br> 26 <br> 27 <br> 28 <br> 29 | grdn29w_clip <br> elevation_ft <br> aspect <br> hillshade <br> slope_ps | raster <br> raster <br> raster <br> raster <br> raster | grid <br> grid <br> tiff <br> grid <br> grid | Elevation 10m DEM <br> Elevation 10m DEM (in feet) <br> Aspect in degrees <br> Hillshade (azimuth 315, altitude 45) <br> Slope (percent rise)  |
+| Aerial Photo | 30 | orthoNAIP      | raster    | .tif        | 2015 NAIP aerial photo             |
 
 ## 3. Create an ArcGIS Pro project
 
