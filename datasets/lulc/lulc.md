@@ -3,7 +3,7 @@
 ## [1. Land use land cover map ca. 2015](lulc_ca2015_print.pdf)
 
 - Data format: Raster
-- Created based on multiple sources, hence "circa"
+- Created based on multiple sources, hence "circa".
   - image classification using machine learning algorithms
   - vector shapes: water body, property parcels, etc.
 - [Colormap](lulc_2015_cmap.clr): symbology to use for visual purposes
@@ -49,4 +49,12 @@
 | 51    | 4     | Parking Lots/Mobile Homes                  | D7D79E         |
 | 52    | 0     | Special Institutions                       | 004975         |
 
-## 2. 
+## 2. [Cooperative Land Cover (Version 3.3)](https://www.fnai.org/LandCover.cfm)
+
+- Data format: Vector
+- Source:
+  - Florida Fish and Wildlife Conservation Commission (FWC)
+  - Florida Natural Areas Inventory (FNAI)
+- [Florida Land Cover Classification System](https://myfwc.com/media/20455/land-cover-classification-revision-2018.pdf)
+
+![clc_lulc_plot](clc_lulc_sum_acre.svg)
