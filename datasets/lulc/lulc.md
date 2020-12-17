@@ -56,4 +56,5 @@
   - Florida Fish and Wildlife Conservation Commission (FWC)
   - Florida Natural Areas Inventory (FNAI)
 - [Florida Land Cover Classification System](https://myfwc.com/media/20455/land-cover-classification-revision-2018.pdf)
-- [Sum of Acres by LULC type](clc_lulc_sum_acre.svg)
+
+![Sum of Acres by LULC type](clc_lulc_sum_acre.svg)
