@@ -35,12 +35,12 @@
 | A     | Soils having a high infiltration rate (low runoff potential) when thoroughly wet. <br>These consist mainly of deep, well drained to excessively drained sands or gravelly sands.                                                                                                                                                    | high                    |
 | B     | Soils having a moderate infiltration rate when thoroughly wet. <br>These consist chiefly of moderately deep or deep, moderately well drained or well drained soils that <br>have moderately fine texture to moderately coarse texture.                                                                                                  | moderate                |
 | C     | Soils having a slow infiltration rate when thoroughly wet. <br>These consist chiefly of soils having a layer that impedes the downward movement of water or <br>soils of moderately fine texture or fine texture.                                                                                                                       | slow                    |
-| D     | Soils having a very slow infiltration rate (high runoff potential) when thoroughly wet. <br> These consist chiefly of clays that have a high shrink-swell potential, soils that have a high water table, soils that <br>have a claypan or clay layer at or near the surface, and soils that are shallow over nearly impervious material. | very slow               |
+| D     | Soils having a very slow infiltration rate (high runoff potential) when thoroughly wet. <br> These consist chiefly of clays that have a high shrink-swell potential, soils that have a high water table, <br>soils that have a claypan or clay layer at or near the surface, and soils that are shallow over <br>nearly impervious material. | very slow               |
 
 **_Note:_** If a soil is assigned to a dual hydrologic group (A/D, B/D, or C/D), the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.
 
-## 4. WTDEPANNMIN (Water Table Depth, Annual, Minimum, in centimeters)
+## 4. WTDEPANNMIN (Water Table Depth, Annual, Minimum)
 
-- the shallowest depth to a wet soil layer (water table)
-- expressed as centimeters from the soil surface
+- the shallowest depth (from the surface) to a wet soil layer (water table)
+- expressed as centimeters (cm)
 - at any time during the year
