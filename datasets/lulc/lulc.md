@@ -49,6 +49,8 @@
 | 51    | 4     | Parking Lots/Mobile Homes                  | D7D79E         |
 | 52    | 0     | Special Institutions                       | 004975         |
 
+![lulc_sum_acre_plot](lulc_sum_acre.svg)
+
 ## 2. [Cooperative Land Cover (Version 3.3)](https://www.fnai.org/LandCover.cfm)
 
 - Data format: Vector
@@ -61,4 +63,63 @@
   - Inform conservation and management activities
 - [Florida Land Cover Classification System](https://myfwc.com/media/20455/land-cover-classification-revision-2018.pdf)
 
-![Sum of Acres by LULC type](clc_lulc_sum_acre.svg)
+| Land Cover Code | Land Cover Description                            |
+|-----------------|---------------------------------------------------|
+| 1110            | Upland Hardwood Forest                            |
+| 1120            | Mesic Hammock                                     |
+| 1150            | Xeric Hammock                                     |
+| 1240            | Sandhill                                          |
+| 1311            | Mesic Flatwoods                                   |
+| 1400            | Mixed Hardwood-Coniferous                         |
+| 1500            | Shrub and Brushland                               |
+| 1821            | Low Intensity Urban                               |
+| 18211           | Urban Open Land                                   |
+| 18212           | Residential, Low Density                          |
+| 182111          | Urban Open Forested                               |
+| 182131          | Parks and Zoos                                    |
+| 182132          | Golf courses                                      |
+| 182134          | Cemeteries                                        |
+| 182135          | Community rec. facilities                         |
+| 1822            | High Intensity Urban                              |
+| 18221           | Residential, Med. Density - 2-5 Dwelling Units/AC |
+| 18222           | Residential, High Density > 5 Dwelling Units/AC   |
+| 18223           | Commercial and Services                           |
+| 18224           | Industrial                                        |
+| 18225           | Institutional                                     |
+| 1831            | Rural Open                                        |
+| 1832            | Rural Structures                                  |
+| 18311           | Rural Open Forested                               |
+| 183314          | Unimproved/Woodland Pasture                       |
+| 1840            | Transportation                                    |
+| 1850            | Communication                                     |
+| 1860            | Utilities                                         |
+| 1870            | Extractive                                        |
+| 2140            | Floating/Emergent Aquatic Vegetation              |
+| 2111            | Wet Prairie                                       |
+| 2112            | Mixed Scrub-Shrub Wetland                         |
+| 2120            | Marshes                                           |
+| 21211           | Depression Marsh                                  |
+| 21212           | Basin Marsh                                       |
+| 2233            | Mixed Wetland Hardwoods                           |
+| 2240            | Mixed Hardwood Coniferous Swamps                  |
+| 2211            | Cypress                                           |
+| 2221            | Wet Flatwoods                                     |
+| 22311           | Bay Swamp                                         |
+| 22323           | Cabbage Palm Hammock                              |
+| 3000            | Lacustrine                                        |
+| 3113            | Flatwoods/Prairie/Marsh Lake                      |
+| 3117            | Sandhill Lake                                     |
+| 3220            | Artificial Impoundment/Reservoir                  |
+| 3240            | Sewage Treatment Pond                             |
+| 3250            | Stormwater Treatment Areas                        |
+| 3260            | Industrial Cooling Pond                           |
+| 4000            | Riverine                                          |
+| 4220            | Ditch/Artificial Intermittent Stream              |
+| 183312          | Field Crops                                       |
+| 183321          | Citrus                                            |
+| 183332          | Coniferous Plantations                            |
+| 183341          | Tree Nurseries                                    |
+| 183343          | Ornamentals                                       |
+| 183351          | Feeding Operations                                |
+| 183352          | Specialty Farms                                   |
+| 183313          | Improved Pasture                                  |
