@@ -1,6 +1,6 @@
 # Land Use Land Cover 
 
-## 1. Land use land cover map ca. 2015
+## [1. Land use land cover map ca. 2015](lulc_ca2015_print.pdf)
 
 - Data format: Raster
 - Created based on multiple sources, hence "circa"
@@ -48,7 +48,5 @@
 | 50    | 53    | Vacant                                     | 191919         |
 | 51    | 4     | Parking Lots/Mobile Homes                  | D7D79E         |
 | 52    | 0     | Special Institutions                       | 004975         |
-
-![lulc_ca_2015](lulc_ca2015_print.jpg)
 
 ## 2. 
