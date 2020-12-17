@@ -52,9 +52,13 @@
 ## 2. [Cooperative Land Cover (Version 3.3)](https://www.fnai.org/LandCover.cfm)
 
 - Data format: Vector
+- Extent: statewide
 - Source:
   - Florida Fish and Wildlife Conservation Commission (FWC)
   - Florida Natural Areas Inventory (FNAI)
+- Goal:
+  - Fill a priority data gap of Florida's State Wildlife Action Plan (SWAP) for improved habitat mapping
+  - Inform conservation and management activities
 - [Florida Land Cover Classification System](https://myfwc.com/media/20455/land-cover-classification-revision-2018.pdf)
 
 ![Sum of Acres by LULC type](clc_lulc_sum_acre.svg)
