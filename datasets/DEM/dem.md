@@ -28,19 +28,19 @@
 ## 3. [Hillshade](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-hillshade-works.htm)
 
 - Data name: hillshade
-- Value ranges from ($0-255$)
+- Value ranges from (0-255)
   - 0: the darkest
   - 255: the brightest
 - Usage: Mainly for visualization purposes
 - Two parameters
-  - Azimuth ($315^{\circ}$ by default)
+  - Azimuth (315 degree by default)
   - ![azimuth](hillshade_azimuth.gif)
-  - Altitude ($45^{\circ}$ by default)
+  - Altitude (45 degree by default)
   - ![altitude](hillshade_altitude.gif)
 
 ## 4. [Slope](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-slope-works.htm)
 
 - Data name: slope_ps
-- Value ranges from ($0-{\infty}$)
+- Value ranges from (0-infinity)
 - Illustration:
 - ![slope_ps](slope_percent_rise.gif)
