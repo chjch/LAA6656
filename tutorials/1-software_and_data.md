@@ -30,9 +30,44 @@
 | [Property](https://colab.research.google.com/drive/1dTJGRo9QLDyEhTLOQJDUw_F0UfnZUivM?authuser=1) | 18 <br> 19 | taxlot <br> MSBFP | vector <br> vector | polygon <br> polygon | [FGDL](https://www.fgdl.org/metadataexplorer/full_metadata.jsp?docId=%7B147B34F0-9E64-49AE-8B7F-5C4999BEC541%7D&loggedIn=false) Property parcel <br> [Microsoft Building Footprint](https://github.com/Microsoft/USBuildingFootprints) |
 | [LULC](../datasets/lulc/lulc.md) | 20 <br> 21 | LULC_2015 <br> CLC_LULC | raster <br> vector    | grid <br> polygon | Land Use Land Cover ca. 2015 <br> Cooperative Land Cover (Version 3.3)|
 | [Soils](../datasets/soils.md) | 22 <br> 23 <br> 24 <br> 25 | Soils <br> soil_agcl <br> soil_hgrp <br> soil_wt | vector <br> raster <br> raster <br> raster | polygon <br> grid <br> grid <br> grid | [SSURGO](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627) soil polygons <br> Non-irrigated land capability class <br> Hydrologic soils group <br> Depth to water table (feet, classed)     |
-| [Topography](../datasets/DEM/dem.md) | 26 <br> 27 <br> 28 <br> 29 | elevation_ft <br> aspect <br> hillshade <br> slope_ps | raster <br> raster <br> raster <br> raster | tiff <br> tiff <br> grid <br> grid | Elevation 10m DEM (in feet) <br> Aspect in degrees <br> Hillshade (azimuth 315, altitude 45) <br> Slope (percent rise)  |
+| [Topography](../datasets/DEM/dem.md) | 26 <br> 27 <br> 28 <br> 29 | elevation_ft <br> aspect2 <br> hillshade <br> slope_ps | raster <br> raster <br> raster <br> raster | tiff <br> tiff <br> grid <br> grid | Elevation 10m DEM (in feet) <br> Aspect in degrees <br> Hillshade (azimuth 315, altitude 45) <br> Slope (percent rise)  |
 | Aerial Photo | 30 | orthoNAIP      | raster    | tiff        | 2015 [National Agricultue Imagery Program](https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/) (NAIP)   |
 
-## 3. Create an ArcGIS Pro project
+## 3. Getting to know ArcGIS Pro
 
-- 
+### 3.1 Create an ArcGIS Pro Project
+
+1. The ```Start``` page.
+   - The ```Open``` section: display projects created before or choose to open another project on your computer
+   - The ```New``` section: show templates you can use to create a brand new project
+      1. **Map**: Analyze and Work with 2D data (ArcMap)
+      2. **Local** and **Global Scene**: Visualize and work with 3D data (ArcScene and ArcGlobe)
+      3. **Catalog**: Managing data and work with metadata (ArcCatalog)
+2. Create a project using the **Map** template.
+   1. Specify project name (e.g. Tutorial_1)
+   2. Choose a folder on your local drive to store the project
+3. What just happend: Project File, GeoDatabase, and Toolbox
+   - ![proj_folder](images/proj_folder.png)
+
+### 3.2 Getting to know the User Interface
+
+1. Project Ribbon
+   - Map Tab: basic mapping operations
+   - Insert Tab: Adding new map, scene, or layout
+   - Analysis Tab: Geoprocessing, ModelBuilder, Python and more
+2. Content Pane
+   - List by Drawing Order
+   - List by Data Source
+   - List by Selection
+3. Catalog Pane: manage existings and create new ones
+   - Maps (default map): In ArcGIS Pro you can have multiple maps simultaneously to visualize and compare them side-by-side. The map concept is similar to the ```Data Frame``` in ArcMap.
+   - Toolboxes (default loaded)
+   - Layouts (if created): Insert a new Layout
+   - Folders (default loaded): **Add Connection** to new folder
+   - Databases (default loaded): Create a new GeoDatabase
+
+### 3.3 Add Data to Map and work with symbology
+
+- Add Study area boundary
+- Work with vector symbology: census block
+- Work with raster symbology: LULC ca. 2015
