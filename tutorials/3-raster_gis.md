@@ -30,4 +30,6 @@ In its simplest form, a raster consists of ***a matrix of cells*** (or pixels) o
 - Extent: The top, bottom, left, and right coordinates of the rectangle (boundary) containing the raster dataset.
 - Cell Size: determines how detailed or coarse of the information presented by the raster dataset.
 
-![cell_size](images/cellSize.gif)
+![cell_size](images/cellSize.gif){:style="float: center;"}
+
+
