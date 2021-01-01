@@ -1,8 +1,8 @@
 # GIS Analysis for Raster Data
 
-## 1. What is Raster Data <img style="float: right;" src="images\rasterbands.png">
+## 1. What is Raster Data
 
-In its simplest form, a raster consists of ***a matrix of cells*** (or pixels) organized into rows and columns (or a grid) where ***each cell contains a value*** representing information, such as temperature. Raster grids can be outputs from raster analysis, digital aerial photographs, imagery from satellites, digital pictures, or even scanned maps.
+In its simplest form, a raster consists of ***a matrix of cells*** (or pixels) organized into rows and columns (or a grid) where ***each cell contains a value*** representing information, such as temperature. Raster grids can be outputs from raster analysis, digital aerial photographs, imagery from satellites, digital pictures, or even scanned maps. <img style="float: right;" src="images\rasterbands.png">
 
 ### 1.1 Single band
 
