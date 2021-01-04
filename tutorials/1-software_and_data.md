@@ -46,8 +46,7 @@
 2. Create a project using the **Map** template.
    1. Specify project name (e.g. Tutorial_1)
    2. Choose a folder on your local drive to store the project
-3. What just happend: Project File, GeoDatabase, and Toolbox
-   - ![proj_folder](images/proj_folder.png)
+3. What just happend: Project File, GeoDatabase, and Toolbox <br> <img alt="proj_folder" vspace="5px" src="images/proj_folder.png">
 
 ### 3.2 Getting to know the User Interface
 
@@ -59,7 +58,7 @@
    - List by Drawing Order
    - List by Data Source
    - List by Selection
-3. Catalog Pane: manage existings and create new ones
+3. Catalog Pane: manage existing and create new ones
    - Maps (default map): In ArcGIS Pro you can have multiple maps simultaneously to visualize and compare them side-by-side. The map concept is similar to the ```Data Frame``` in ArcMap.
    - Toolboxes (default loaded)
    - Layouts (if created): Insert a new Layout
