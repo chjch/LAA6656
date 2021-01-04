@@ -1,4 +1,4 @@
-# GIS Analysis for Raster Data
+# Tutorial 3 - GIS Analysis for Raster Data
 
 ## 1. What is Raster Data 
 

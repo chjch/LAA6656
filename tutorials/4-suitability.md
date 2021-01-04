@@ -1,4 +1,4 @@
-# Suitability Analysis using ArcGIS Pro
+# Tutorial 4 - Suitability Analysis using ArcGIS Pro
 
 ## 1. Case study land use: Industry
 
