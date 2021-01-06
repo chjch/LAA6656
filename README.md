@@ -2,7 +2,7 @@
 
 This set of tutorials are developed for _LAA 6656: Advanced Landscape Architecture Design Studio_ that is offered in the [School of Landscape Architecture and Planning](https://dcp.ufl.edu/slap/) at the [University of Florida](http://www.ufl.edu/). With this series of tutorials, we intend to get you up to speed with the essential techniques you need to succeed the class.
 
-We chose to use GitHub as the platform to distribute this series of GIS tutorials because (a) it offers high accessibility, you can review them using either your browser on a desktop computer or your mobile device as long as you have internet; (b) it is web-based, light-weight, and great way to organize materials including links, images, and documents; and (c) it is a great way to tracking updates (version control) made to the content, and great to host the material for the long-term.
+We chose to use _GitHub_ as the platform to distribute this series of GIS tutorials because (a) it offers high accessibility, you can review them using either your browser on a desktop computer or your mobile device as long as you have internet; (b) it is web-based, light-weight, and great way to organize materials including links, images, and documents; and (c) it is a great way to tracking updates (version control) made to the content, and great to host the material for the long-term.
 
 ## 1. Description
 
