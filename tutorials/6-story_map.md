@@ -29,3 +29,6 @@
    3. Explorer map tour
    4. Start from scratch
 5. Add an existing web map
+   1. Open a web map from ArcGIS Online
+   2. Add data/layers to the web map
+   3. Configure the layers
