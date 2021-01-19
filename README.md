@@ -13,6 +13,7 @@ We encourage every student to use ArcGIS Pro as their platform of choice to do a
 3. [Raster analysis in GIS](tutorials/3-raster_gis.md).
 4. [Suitability analysis with ArcGIS Pro](tutorials/4-suitability.md).
 5. [Using ModelBuilder to automate geoprocessing operations](tutorials/5-modelbuilder.md).
+6. [Create ArcGIS StoryMaps](tutorials/6-story_map.md)
 
 ## 2. Other helpful information and tutorials from ESRI
 
