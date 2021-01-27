@@ -1,6 +1,13 @@
 # Tutorial 3 - GIS Analysis for Raster Data
 
-## 1. What is Raster Data 
+## 0. A Preface
+
+- A **_Recap_** of GIS tutorials so far
+- Wildlife Migratory Path:
+  - Consider technical solutions: such as overpass
+  - 29°03'07.8"N, 82°10'09.2"W
+
+## 1. What is Raster Data
 
 <img align="right" src="images\rasterbands.png">
 
