@@ -33,6 +33,7 @@ In its simplest form, a raster consists of ***a matrix of cells*** (or pixels) o
 ### 1.4 Fundamental [Properties of a Raster Dataset](https://pro.arcgis.com/en/pro-app/latest/help/data/imagery/raster-dataset-properties.htm)
 
 - Spatial Reference (projection): [GCS vs. PCS](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/coordinate-systems-difference/)
+<br> <img alt="gcs_pcs" src="images/gcs_pcs.png" vspace="5px">
 - Extent: The top, bottom, left, and right coordinates of the rectangle (boundary) containing the raster dataset.
 - Cell Size: determines how detailed or coarse of the information presented by the raster dataset. <br> <img alt="cell_size" src="images/cellSize.gif" vspace="5px">
 
