@@ -2,12 +2,12 @@
 
 ## 1. Install ArcGIS Pro
 
-- **Step 1 - Download**: Follow the instruction on https://www.geoplan.ufl.edu/software/arcgis-pro/ to obtain a copy of the software. Make sure you download the latest version i.e., ArcGIS Pro 2.6. The file is located inside `AGP2.6` with a name of `ArcGISPro_26_175036.exe`.
+- **Step 1 - Download**: Follow the instruction on https://www.geoplan.ufl.edu/software/arcgis-pro/ to obtain a copy of the software. Make sure you download the latest version i.e., ArcGIS Pro 2.6. The file is located inside `AGP2.9` with a name of `ArcGISPro_29_179927.exe`.
 - **Step 2 - Install**: Double-click the installation file you just downloaded from last step, follow the instructions to install the application on your computer.
 - **Step 3 - Open the software**: Find the software in your start menu just as any other existing program on your computer. You can either locate it in the App list under `ArcGIS` or search for `ArcGIS Pro` using the Search button on your taskbar.
 - **Step 4 - Log in**:  Follow the instruction on https://www.geoplan.ufl.edu/software/esri-login-instructions/ to login to ArcGIS Pro.
 
-**_Make sure it's up-to-date_**. If you already have ArcGIS Pro installed on your computer before, please **make sure that you have the same version** as described above. If not, please update the application. An _software update_ notifciation will automatically pop out, every time you start the software (with internet connection). Otherwise, you can go to the _About_ section in the settings panel to manually check for update.
+**_Make sure it's up-to-date_**. If you already have ArcGIS Pro installed on your computer before, please **make sure that you have the same version** as described above. If not, please update the application. An _software update_ notification will automatically pop out, every time you start the software (with internet connection). Otherwise, you can go to the _About_ section in the settings panel to manually check for update.
 
 ## 2. Introduction to the GIS datasets
 

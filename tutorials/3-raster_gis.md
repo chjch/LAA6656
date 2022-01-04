@@ -99,3 +99,5 @@ Example:
 
 1. Re-visit Euclidean Distance.
 2. Set the mask.
+
+Save a raster grid for sharing (not FGDB)
