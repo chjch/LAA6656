@@ -15,8 +15,6 @@
    - [ ] CENTRAL
    - [ ] WEST
 
----
-
 ## 2. Livestream Experience
 
 4. How long did you watch the live streaming?
@@ -52,8 +50,6 @@
 11. How do you rate your overall experience with the livestream platform (user
     interface, video quality, accessibility, etc.)? Please answer 1 (very
     dissatisfied) to 5 (very satisfied). _____
-
----
 
 ## 3. Overall Evaluation & Opinions
 
