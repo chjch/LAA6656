@@ -39,7 +39,7 @@
 ## 2. Introduction to the GIS datasets
 
 - **Download** from this [Dropbox link](https://tinyurl.com/26768krj)
-  (password provided on Canvas).
+  (password provided under Canvas -> Files).
 - Critical to be aware and acquainted with what's available.
 - Identifying and acquiring useful datasets is an essential skill.
 - Understanding the concepts behind different types of GIS data.
