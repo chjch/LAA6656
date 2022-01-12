@@ -1,12 +1,32 @@
 # Tutorial 2 - GIS analysis for Vector Data
 
+- [Tutorial 2 - GIS analysis for Vector Data](#tutorial-2---gis-analysis-for-vector-data)
+  - [1. Vector storage formats in ArcGIS Pro](#1-vector-storage-formats-in-arcgis-pro)
+  - [2. Buffer](#2-buffer)
+  - [3. Clip](#3-clip)
+  - [4. Selection of Features](#4-selection-of-features)
+    - [4.1. Select by Location](#41-select-by-location)
+    - [4.2. Select by Attributes](#42-select-by-attributes)
+    - [4.3. Interactive Selection](#43-interactive-selection)
+    - [4.4. Creating new feature class from selected features (Export Data)](#44-creating-new-feature-class-from-selected-features-export-data)
+  - [5. Spatial Join](#5-spatial-join)
+  - [6. Field Calculation](#6-field-calculation)
+    - [6.1. Reclassify a Field](#61-reclassify-a-field)
+    - [6.2. Calculate Geometry](#62-calculate-geometry)
+    - [6.3. Calculate a new field based on other fields](#63-calculate-a-new-field-based-on-other-fields)
+  - [7. Feature Class Creation and Editing in ArcGIS Pro](#7-feature-class-creation-and-editing-in-arcgis-pro)
+
 ## 1. [Vector storage formats in ArcGIS Pro](https://www.esri.com/arcgis-blog/products/arcgis-pro/data-management/using-common-gis-data-types-in-arcgis-pro/)
 
 - **Shapefile**
-  - Pros: Commonly supported by virtually every GIS software and geospatial programming packages (e.g., geopandas of Python).
-  - Cons: large storage size, computationally expensive and **limited in field name length: 10 characters (a dBASE table limit)**.
+  - Pros: Commonly supported by virtually every GIS software and geospatial
+    programming packages (e.g., geopandas of Python).
+  - Cons: large storage size, computationally expensive and **limited in field
+    name length: 10 characters (a dBASE table limit)**.
 - **Feature class** in a _File GeoDatabase_
-  - Pros: Fast geoprocessing operation, cost less storage for the same data, length and area are automatically computed and stored by ```Shape_Length``` and ```Shape_Area``` respectively.
+  - Pros: Fast geoprocessing operation, cost less storage for the same data,
+    length and area are automatically computed and stored by ```Shape_Length```
+    and ```Shape_Area``` respectively.
   - Cons: Only supported by ArcGIS platform.
 
 ## 2. [Buffer](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/buffer.htm)
@@ -17,13 +37,13 @@
   2. Method: ```Planar```.
   3. Dissolve Type: ```No Dissolve```.
 
-<img vspace="5px" src="images/buffer.png">
+<img vspace="5px" src="img/buffer.png">
 
 ## 3. [Clip](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/clip.htm)
 
 - Input data: ```MSBFP.shp``` (input feature) and _output of the buffer tool_ (clip feature).
 
-<img src="images/clip.png" vspace="5px">
+<img src="img/clip.png" vspace="5px">
 
 **_Caveat_**: Should I use the _Clip_ tool?
 
