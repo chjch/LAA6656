@@ -46,8 +46,8 @@
 
 <img src="img/clip.png" vspace="5px">
 
-> :warning:**A Caveat**: Should I use the _Clip_ tool?<br>
-> This tool physically cut through the geometry, which may result in
+> :warning:**A Caveat**: Should I use _Clip_?<br>
+> The Clip tool physically cut through the geometry, which may result in
 > **unintended sliver polygons** if the edges of the input and clip features
 > are not perfectly aligned with each other.
 > Let's take a look at the output of clipping.
