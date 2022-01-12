@@ -41,21 +41,30 @@
 
 ## 3. [Clip](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/clip.htm)
 
-- Input data: ```MSBFP.shp``` (input feature) and _output of the buffer tool_ (clip feature).
+- Input data: ```MSBFP.shp``` (input feature) and _output of the buffer tool_
+  (clip feature).
 
 <img src="img/clip.png" vspace="5px">
 
-**_Caveat_**: Should I use the _Clip_ tool?
-
-- This tool physically cut through the geometry, which may result in **unintended sliver polygons** if the edges of the input and clip features are not perfectly aligned with each other. Let's take a look at the output of clipping.
+> :warning:A Caveat: Should I use the _Clip_ tool?
+> This tool physically cut through the geometry, which may result in
+> **unintended sliver polygons** if the edges of the input and clip features
+> are not perfectly aligned with each other.
+> Let's take a look at the output of clipping.
 
 ## 4. Selection of Features
 
-Although this is a basic operation, selecting features based on certain criteria is a fundamental technique in GIS analysis, which helps you better understand the area you are interested in. Those criteria can be either the feature's own attributes (characteristics/qualities) or its spatial relationship with other features in the area.
+Although this is a basic operation, selecting features based on certain
+criteria is a fundamental technique in GIS analysis, which helps you better
+understand the area you are interested in.
+Those criteria can be either the feature's own attributes
+(characteristics/qualities) or its spatial relationship with other features in
+the area.
 
 ### 4.1. [Select by Location](https://pro.arcgis.com/en/pro-app/latest/help/mapping/navigation/select-features-by-location.htm)
 
-- Input data: ```MSBFP.shp``` (input feature) and _output of the buffer tool_ (selecting feature).
+- Input data: ```MSBFP.shp``` (input feature) and _output of the buffer tool_
+  (selecting feature).
 - [Spatial relationships](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/select-by-location-graphical-examples.htm)
   - Intersecting
   - Within (what is the difference between within and completely within?)
@@ -64,11 +73,22 @@ Although this is a basic operation, selecting features based on certain criteria
 
 - Input data: [taxlot.shp](../tutorials/1-software_and_data.md#property).
 - Selection type:
-  1. **New selection**: The resulting selection replaces the current selection. This is the default.
-  2. **Add to the current selection**: The resulting selection is added to the current selection if one exists. If no selection exists, this is the same as the new selection option.
-  3. **Remove from the current selection**: The resulting selection is removed from the current selection. If no selection exists, this option has no effect.
-  4. **Select subset from the current selection**: The resulting selection is combined with the current selection. Only records that are common to both remain selected.
-  5. **Switch the current selection**: The selection is switched. All records that were selected are removed from the current selection, and all records that were not selected are added to the current selection. The Expression parameter (where_clause in Python) is ignored when this option is specified.
+  1. **New selection**: The resulting selection replaces the current selection.
+     This is the default.
+  2. **Add to the current selection**: The resulting selection is added to the
+     current selection if one exists.
+     If no selection exists, this is the same as the new selection option.
+  3. **Remove from the current selection**: The resulting selection is removed
+     from the current selection.
+     If no selection exists, this option has no effect.
+  4. **Select subset from the current selection**: The resulting selection is
+    combined with the current selection.
+    Only records that are common to both remain selected.
+  5. **Switch the current selection**: The selection is switched.
+     All records that were selected are removed from the current selection, and
+     all records that were not selected are added to the current selection.
+     The Expression parameter (where_clause in Python) is ignored when this
+     option is specified.
   6. **Clear the current selection**.
 - [SQL selection query](https://pro.arcgis.com/en/pro-app/latest/help/mapping/navigation/sql-reference-for-elements-used-in-query-expressions.htm)
   1. JV > 200000
@@ -86,11 +106,15 @@ Although this is a basic operation, selecting features based on certain criteria
 
 ### 4.4. Creating new feature class from selected features (Export Data)
 
-**Note**: Geoprocessing functions only operates on selected features.
+> :notebook_with_decorative_cover:**Note**<br>
+> Geoprocessing functions only operates on selected features.
 
 ## 5. [Spatial Join](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/spatial-join.htm)
 
-Joins the attributes from features in another dataset based on a specified _spatial relationship_. **Shapes of the target features** and **attributes of the join features** will be written to the output feature class.
+Joins the attributes from features in another dataset based on a specified
+_spatial relationship_.
+**Shapes of the target features** and **attributes of the join features** will
+be written to the output feature class.
 
 - Input data: ```MSBFP.shp``` (Target feature) [taxlot.shp](../tutorials/1-software_and_data.md#property)
 - Parameters:
@@ -103,7 +127,9 @@ Joins the attributes from features in another dataset based on a specified _spat
 
 ## 6. Field Calculation
 
-In this section, we will see how the [_Calculating Field_](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/calculate-field.htm) tool can be used in three practical scenarios. **_Note_**: to follow the _best practice_, we will make a copy of the original data before we perform these operations.
+In this section, we will see how the [_Calculating Field_](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/calculate-field.htm) tool can be used in three practical scenarios.
+**_Note_**: to follow the _best practice_, we will make a copy of the original
+data before we perform these operations.
 
 ### 6.1. Reclassify a Field
 
@@ -136,11 +162,15 @@ In this section, we will see how the [_Calculating Field_](https://pro.arcgis.co
 
 ## 7. Feature Class Creation and [Editing in ArcGIS Pro](https://pro.arcgis.com/en/pro-app/latest/help/editing/overview-of-desktop-editing.htm)
 
-In this section, we will create a wildlife migration corridor based on the wetland features. To fully demonstrate the process, we will create both a line feature class and a polygon feature class.
+In this section, we will create a wildlife migration corridor based on the
+wetland features.
+To fully demonstrate the process, we will create both a line feature class and
+a polygon feature class.
 
 1. Create an empty feature class.
 2. Go to the ```Edit``` tab.
 3. Digitize new feature by clicking the ```Create``` button.
-4. Select the created feature class in the ```Create Features``` panel on the right of the map.
+4. Select the created feature class in the ```Create Features``` panel on the
+   right of the map.
 5. Start to digitize features (double click to complete a feature).
 6. Save the edits (often) after feature created.
