@@ -98,11 +98,11 @@ the area.
 ### 4.3. [Interactive Selection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/navigation/selection-options.htm)
 
 - Selection combination mode
-  - Add to (```Shift+Click```)
-  - Remove from (```Ctrl+Click```)
-  - Select from (```Ctrl+ Shift +Click```)
+  - Add to (`Shift+Click`)
+  - Remove from (`Ctrl+Click`)
+  - Select from (`Ctrl+Shift+Click`)
 - [Selection shape](https://pro.arcgis.com/en/pro-app/latest/help/mapping/navigation/select-features-interactively.htm#ESRI_SECTION1_EDB7A6492B3D4521B934412A3A2CFDF1)
-- Selectable layer (List by Selection in the ```Content Panel```)
+- Selectable layer (List by Selection in the `Content Panel`)
 
 ### 4.4. Creating new feature class from selected features (Export Data)
 
@@ -116,13 +116,13 @@ _spatial relationship_.
 **Shapes of the target features** and **attributes of the join features** will
 be written to the output feature class.
 
-- Input data: ```MSBFP.shp``` (Target feature) [taxlot.shp](../tutorials/1-software_and_data.md#property)
+- Input data: `MSBFP.shp` (Target feature) [taxlot.shp](../tutorials/1-software_and_data.md#property)
 - Parameters:
-  1. Join Operation: ```Join one to one```
-  2. Match Option:  ```Within```
+  1. Join Operation: `Join one to one`
+  2. Match Option:  `Within`
   3. Field Map:
-      - ```"JV" -> Mean```
-      - ```"ACTYRBLT" -> Minimum```
+      - `"JV" -> Mean`
+      - `"ACTYRBLT" -> Minimum`
       - Remove all other fields in the join feature from the output
 
 ## 6. Field Calculation
@@ -137,7 +137,7 @@ data before we perform these operations.
 - Field: "FLD_ZONE"
 - _Add a New Field_
   - field name: "RISK_LEVEL"
-  - field type: ```Text``` (length 50)
+  - field type: `Text` (length 50)
 - Value Remapping:
   | old value | new value                  |
   |:---------:|----------------------------|
@@ -150,15 +150,15 @@ data before we perform these operations.
 - Input data: [Census block](../datasets/census/census.md)
 - _Add a New Field_
   - field name: "AREA_ACRE"
-  - field type: ```Long``` (Integer)
+  - field type: `Long` (Integer)
 
 ### 6.3. Calculate a new field based on other fields
 
-- Input data: ```CensusBlocks_2010_cp.shp```
+- Input data: `CensusBlocks_2010_cp.shp`
 - Field: "TOT_POP", "AREA_ACRE"
 - _Add a New Field_
   - field name: "POPDEN"
-  - field type: ```Double``` (Decimal)
+  - field type: `Double` (Decimal)
 
 ## 7. Feature Class Creation and [Editing in ArcGIS Pro](https://pro.arcgis.com/en/pro-app/latest/help/editing/overview-of-desktop-editing.htm)
 
@@ -168,9 +168,9 @@ To fully demonstrate the process, we will create both a line feature class and
 a polygon feature class.
 
 1. Create an empty feature class.
-2. Go to the ```Edit``` tab.
-3. Digitize new feature by clicking the ```Create``` button.
-4. Select the created feature class in the ```Create Features``` panel on the
+2. Go to the `Edit` tab.
+3. Digitize new feature by clicking the `Create` button.
+4. Select the created feature class in the `Create Features` panel on the
    right of the map.
 5. Start to digitize features (double click to complete a feature).
 6. Save the edits (often) after feature created.
