@@ -98,9 +98,9 @@ the area.
 ### 4.3. [Interactive Selection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/navigation/selection-options.htm)
 
 - Selection combination mode
-  - Add to (```Shift + Click```)
-  - Remove from (```Ctrl + Click```)
-  - Select from (```Ctrl + Shift + Click```)
+  - Add to (```Shift+Click```)
+  - Remove from (```Ctrl+Click```)
+  - Select from (```Ctrl+ Shift +Click```)
 - [Selection shape](https://pro.arcgis.com/en/pro-app/latest/help/mapping/navigation/select-features-interactively.htm#ESRI_SECTION1_EDB7A6492B3D4521B934412A3A2CFDF1)
 - Selectable layer (List by Selection in the ```Content Panel```)
 
