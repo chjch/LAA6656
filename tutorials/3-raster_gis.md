@@ -80,7 +80,8 @@ In its simplest form, a raster consists of ***a matrix of cells*** (or pixels) o
 ### 2.5. [Raster Calculator](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-analyst/raster-calculator.htm)
 
 - Input data: [elevation_ft.tif](../datasets/DEM/dem.md), [lulc2015.tif](../datasets/lulc/lulc.md)
-- [Map Algebra Expression](https://pro.arcgis.com/en/pro-app/help/analysis/spatial-analyst/mapalgebra/working-with-operators.htm)
+- [Map Algebra Expression](https://pro.arcgis.com/en/pro-app/help/analysis/spatial-analyst/mapalgebra/working-with-operators.htm):
+  3 types of [overlay analysis](https://github.com/chjch/LAA4356/blob/master/tutorials/3-raster_geoprocessing.md#4-map-algebra)
 - Example functions:
   1. raise elevation by 10 feet.
   2. convert elevation from feet to meter (1 m = 3.28084 ft).
