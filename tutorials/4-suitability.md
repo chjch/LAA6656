@@ -59,7 +59,7 @@ Rescale (transformation) Methods:
     | above 2000 | 9         |
 3. **Continuous Functions** -> Accessibility
 
-![transform_pane](images/transform_pane.png)
+![transform_pane](img/transform_pane.png)
 
 ### Step 3: Weight criteria relative to one another
 
