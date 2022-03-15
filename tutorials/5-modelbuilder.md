@@ -18,9 +18,9 @@ and **Retention of Agriculture Land**.
 ## 1. Create a model in the project
 
 - **Step 1**. Navigate to the _Toolboxes_ section in the _Catalog_ pane.
-  <br><img src="images/create_model.png" vspace="5px">
+  <br><img src="img/create_model.png" vspace="5px">
 - **Step 2**. Modify the model's _Name_ and _Label_ by go to the _Properties_ menu.
-  <br><img src="images/mb_property.png" vspace="5px">
+  <br><img src="img/mb_property.png" vspace="5px">
   - Name only supports alphanumeric characters.
   - Label is what you see in ArcGIS Pro support all characters.
 - **Step 3**. Start to design the model's workflow by adding data and geoprocessing functions.
@@ -38,7 +38,7 @@ call a _Central Business District_.
 
 ## 3. Organize and Run the Model
 
-<img src="images/mb_tab.png" vspace="5px">
+<img src="img/mb_tab.png" vspace="5px">
 
 - Auto Layout and Fit To Window
 - Validate
@@ -52,7 +52,7 @@ call a _Central Business District_.
 2. Use the **_Report_** to
     - Summarize all information about the model
     - Change a tool's or dataset's label
-    - Configure individual tool's parameters <img src="images/mb_report.png" vspace="5px">
+    - Configure individual tool's parameters <img src="img/mb_report.png" vspace="5px">
 
 ## 5. Model 2 - Retention of Agriculture Land
 
