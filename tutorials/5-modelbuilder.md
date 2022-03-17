@@ -29,11 +29,12 @@ and **Retention of Agriculture Land**.
 
 In this example, we will see how to create a ModelBuilder model that help
 us identify areas that are suitable for high density residential development.
-According to the fundamentals of _Location Theory_, high density tends to be associated with the central place of an urban area. Let's see how we can use
+According to the fundamentals of _Location Theory_, high density tends to be
+associated with the central place of an urban area. Let's see how we can use
 the existing data to create a process in ModelBuilder to identify what we may
 call a _Central Business District_.
 
-- Data: **taxlot.shp**
+- Data: **taxlot.shp** `DORUC IN ('011', '012', '016', '018', '017', '019', '021', '022', '023', '025', '027', '028')`
 - Process: **Select Layer by Attribute** -> **Median Center** -> **Euclidean Distance** -> **Slice**
 
 ## 3. Organize and Run the Model
