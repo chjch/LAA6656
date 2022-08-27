@@ -1,4 +1,4 @@
-# GIS tutorials for LAA 6656
+# Advanced Landscape Architecture Design Studio
 
 This set of tutorials are developed for _LAA 6656: Advanced Landscape Architecture Design Studio_ that is offered by the [School of Landscape Architecture and Planning](https://dcp.ufl.edu/slap/) at the [University of Florida](http://www.ufl.edu/). With this series of tutorials, we intend to get you up to speed with the essential techniques you need to succeed the class.
 
